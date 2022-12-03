@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.login-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+
+    background-color: yellow;
+
+
+  
+}
+.login-box{
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-left:10%;
+    padding-right:10%;
+}
+.login-logo{
+    color: #4C57B6;
+    font-size: 40px;
+    font-family: Open Sans;
+    font-weight: 400;
+    letter-spacing: 0.25 px;
+    margin-top: 3%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.login-para{
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.25 px;
+    margin-top: 3%;
+}
+.login-form{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 6%;
+}
+.login-input{
+    width: 70%;
+    height: 20%;
+    border: 1px solid #E2E2E2;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Open Sans;
+    letter-spacing: 0.25 px;
+    border-radius: 5px;
+    padding-left: 3%;
+    margin-bottom: 3%;
+}
+
+.login-input2{
+    width: 100%;
+    height: 40%;
+    border: 1px solid #E2E2E2;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Open Sans;
+    letter-spacing: 0.25 px;
+    border-radius: 5px;
+    padding-left: 3%;
+    margin-bottom: 3%;
+}
+.login-btn{
+    width: 64%;
+    height: 20%;
+    border: 1px solid #E2E2E2;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Open Sans;
+    letter-spacing: 0.25 px;
+    border-radius: 5px;
+    margin-top: 3%;
+    background-color: #4C57B6;
+    cursor: pointer;
+}
+#login-a{
+    margin-top: 3%;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.25 px;
+    font-size: Open Sans;
+    text-decoration: none;
+}
+#anchor{
+    text-decoration: none;
+}
+.addition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.addition>pre{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.25 px;
+    font-size: Open Sans;
+    color: #000000;
+    text-align: center;
+}
+.addition>a{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.25 px;
+    font-size: Open Sans;
+    color: #352D66;
+    text-align: center;
+    text-decoration: none;
+    
+}

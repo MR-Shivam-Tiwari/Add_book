@@ -1,0 +1,120 @@
+*{
+    box-sizing:border-box;
+}
+
+body,html{
+    margin:0px;
+    padding:0px;
+}
+
+
+.bg-img{
+
+ 
+margin-left:40%;
+
+justify-content: center;
+    height:100vh;
+    text-align:center;
+
+    background-position: center;
+ 
+  position: relative;
+}
+
+.logindiv{
+    width:60vh;
+    height:60vh;
+    background-color:white;
+    text-align:center;
+    margin-top:25vh;
+    display:flex;
+    flex-direction:column;
+  justify-content: center;
+  border-radius:10px;
+
+}
+
+
+
+.head{
+  color:black;
+  margin-bottom:20px;
+}
+  
+
+    input[type=text]  {
+    width: 70%;
+    /* padding: 15px; */
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .in {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    border-radius:10px;
+    margin-left:5px;
+    margin-right:5px;
+    background: #f1f1f1;
+  }
+
+
+  .in:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:10px;
+  
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    
+    background-color:yellow;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    border-radius:10px;
+    border:2px solid black;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+    background-image: linear-gradient( 109.6deg,  rgba(44,83,131,1) 18.9%, rgba(95,175,201,1) 91.1% );
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  a{
+      font-size:30px;
+      /* float:center; */
+  
+     margin-top:20px;
+     text-decoration :none;
+     color:#1d28c7
+
+  }
+
+  a:hover{
+    color:rgb(8, 3, 29)
+  }
+  
